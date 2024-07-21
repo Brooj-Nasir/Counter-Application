@@ -8,12 +8,11 @@ int main()
    	cout<<"Enter character A to increment counter and Q to quit :";
    
    	while(true){
-   		cin>>ch;
+   		ch=_getch();
    		if(ch=='A')
    		{ counter++;
    		cout<<counter;
 		   }
-		   
    		else if (ch=='Q')
    		{
    			cout<<"Exiting the program.";
